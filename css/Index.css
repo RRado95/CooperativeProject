@@ -1,0 +1,17 @@
+@import './header.css';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-left: 547px;
+    margin-right: 548px;
+}
+.row{
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}
