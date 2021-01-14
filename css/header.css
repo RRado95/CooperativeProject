@@ -1,4 +1,5 @@
 .header__suptitle{
+    padding-bottom: 33px    ;
     color: white;
     font-family: Roboto;
 font-style: normal;
@@ -68,7 +69,4 @@ header{
 }
 .header__span{
     color: #0F4898;
-}
-.header__hr{
-    
 }

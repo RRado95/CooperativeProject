@@ -1,12 +1,13 @@
 @import './header.css';
+@import './footer.css';
 
 *{
     padding: 0;
     margin: 0;
 }
 .container{
-    margin-left: 547px;
-    margin-right: 548px;
+    max-width: 825px;
+    margin: 0 auto;
 }
 .row{
     display: flex;
