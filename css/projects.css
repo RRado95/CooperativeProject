@@ -32,10 +32,9 @@
     width: 375px;
   }
   .projects__image {
-margin-top: 25px;
-width: 427px;
-height: 450px;
-margin-bottom: 50px;
+    margin-top: 25px;
+    width: 427px;
+    height: 450px;
+    margin-bottom: 50px;
     z-index: -1;
-  
   }
