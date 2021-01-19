@@ -1,6 +1,7 @@
 .news {
     max-width: 825px;
 margin: auto;
+margin-bottom: 100px;
 
 }
 .news__title {
@@ -35,27 +36,23 @@ line-height: 19px;
     margin-left: 17px;
 }
 .news__link {
-    margin-left: 720px;
     white-space: nowrap;
 }
 .news__date {
-    padding-left: 18px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 11px;
-line-height: 13px;
-letter-spacing: 0.05em;
+    padding: 30px 0px 15px 18px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
 }
 .news__text {
-    padding-left: 18px;
+    padding: 15px 0 20px 18px;
     font-family: Roboto;
 font-style: normal;
 font-weight: 300;
 font-size: 11px;
 line-height: 14px;
 letter-spacing: 0.05em;
-margin-bottom: 33px;
 }
 .news__name {
     padding-left: 18px;
