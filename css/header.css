@@ -1,4 +1,5 @@
 .header__suptitle{
+    padding-bottom: 33px    ;
     color: white;
     font-family: Roboto;
 font-style: normal;
@@ -21,6 +22,7 @@ line-height: 42px;
 .header__list,
 .header__link{
     display: flex;
+    flex-wrap: wrap;
 }
 header{
     max-width: 1920px;
@@ -28,20 +30,12 @@ header{
     
 }
 .header__list{
-    padding-top: 37px;
-    margin-left: 140px;
-
+    margin: 0;
+    padding: 0;
 }
-.number{
-    position: absolute;
-    padding-top: 28px;
-    padding-left: 196px;
-}
-.gmail{ 
-    position: relative;
-    padding-left: 188px;
-    padding-top: 49px;
-    
+.between{
+    justify-content: space-around;
+    align-items: center;
 }
 .gmail,
 .number{
@@ -60,6 +54,7 @@ text-align: right;
 
 }
 header{
+    max-width: 1920px;
    position: absolute;
    top: 0;
    width: 100%;
@@ -68,7 +63,4 @@ header{
 }
 .header__span{
     color: #0F4898;
-}
-.header__hr{
-    
 }
